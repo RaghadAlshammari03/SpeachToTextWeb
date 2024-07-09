@@ -2,7 +2,7 @@ var resultElement = document.getElementById('result');
 
 var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 if (!SpeechRecognition) {
-    alert('Speech recognition not supported in this browser.');
+    alert('Speech recognition not supported in this browserRR.');
 } else {
     var recognition = new SpeechRecognition();
 
