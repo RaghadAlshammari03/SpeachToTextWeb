@@ -1,6 +1,8 @@
 var resultElement = document.getElementById('result');
+var idleMessage = "Hello! I'm not hearing anyone";
 
 var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
 if (!SpeechRecognition) {
     alert('Speech recognition not supported in this browser.');
 } else {
@@ -15,10 +17,14 @@ if (!SpeechRecognition) {
     recognition.addEventListener('result', (event) => {
         const result = event.results[event.results.length - 1][0].transcript;
         resultElement.textContent = result;
+        resultElement.classList.remove('fadeIn'); 
+        void resultElement.offsetWidth; 
+        resultElement.classList.add('fadeIn');
         saveText(result); 
     });
 
     recognition.addEventListener('end', () => {
+        resultElement.textContent = idleMessage; 
         recognition.start();
     });
 
@@ -42,3 +48,5 @@ function saveText(text) {
     };
     xhr.send("text=" + encodeURIComponent(text));
 }
+
+resultElement.textContent = idleMessage;
