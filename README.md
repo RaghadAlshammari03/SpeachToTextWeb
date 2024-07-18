@@ -44,12 +44,15 @@ The recognized text will also be saved to the database.
 
 ## 📁 File Structure
 
-vbnet
-SpeechToTextWeb/
+```
+robot-control-panel/
+│
 ├── index.html
 ├── styles.css
 ├── script.js
-└── save_text.php
+├── save_text.php
+├── README.md
+```
 
 ## ✨ Features
 
