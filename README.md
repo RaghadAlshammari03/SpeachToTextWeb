@@ -48,7 +48,7 @@ The recognized text will also be saved to the database.
 ## 📁 File Structure
 
 ```
-robot-control-panel/
+SpeachToTextWeb/
 │
 ├── index.html
 ├── styles.css
