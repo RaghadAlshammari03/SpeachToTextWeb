@@ -4,6 +4,10 @@
 - [📃 Project Description](#-project-description)
 - [🛠️ Technologies Used](#️-technologies-used)
 - [💻 Code Explanation](#-code-explanation)
+  - [📄 HTML (index.html)](#-html-indexhtml)
+  - [🎨 CSS (styles.css)](#-css-stylescss)
+  - [📝 JavaScript (script.js)](#-javascript-scriptjs)
+  - [🗄️ PHP (store_command.php)](#-php-store_commandphp)
 - [🚀 Usage](#-usage)
 - [📁 File Structure](#-file-structure)
 - [✨ Features](#-features)
@@ -24,16 +28,16 @@ This project is a speech-to-text web application that captures speech from the m
   
 ## 💻 Code Explanation
 
-- 📄 HTML (index.html)
+### 📄 HTML (index.html)
 Sets up the structure of the web page, including the container for displaying recognized text.
 
-- 🎨 CSS (styles.css)
+### 🎨 CSS (styles.css)
 Styles the web page with a robot-themed design, ensuring the text appears with a semi-transparent background and fade-in animation.
 
-- 📝 JavaScript (script.js)
+### 📝 JavaScript (script.js)
 Handles the speech recognition functionality, updates the text on the screen, and saves the recognized text to the database. Also ensures that a default message appears when no speech is detected.
 
-- 🗄️ PHP (save_text.php)
+### 🗄️ PHP (save_text.php)
 Handles saving the recognized text to a MySQL database, enabling persistent storage of commands.
 
 ## 🚀 Usage
