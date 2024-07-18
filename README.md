@@ -7,7 +7,7 @@
   - [📄 HTML (index.html)](#-html-indexhtml)
   - [🎨 CSS (styles.css)](#-css-stylescss)
   - [📝 JavaScript (script.js)](#-javascript-scriptjs)
-  - [🗄️ PHP (store_command.php)](#-php-store_commandphp)
+  - [🗄️ PHP (save_text.php)]([#-php-save_textphp])
 - [🚀 Usage](#-usage)
 - [📁 File Structure](#-file-structure)
 - [✨ Features](#-features)
