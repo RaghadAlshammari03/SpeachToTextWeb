@@ -18,7 +18,7 @@
 
 This project is a speech-to-text web application that captures speech from the microphone, converts it to text, and displays it on the screen with a stylish animation. The text is also saved to a database for further use. The interface is designed to be visually appealing and user-friendly.
 
-** 🛠️ Technologies Used
+## 🛠️ Technologies Used
 - HTML
 - CSS
 - JavaScript
