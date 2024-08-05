@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "speechRecognition";
+$dbname = "speechrecognition";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

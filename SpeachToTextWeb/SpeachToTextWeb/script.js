@@ -1,14 +1,14 @@
 var resultElement = document.getElementById('result');
-var idleMessage = "Hello! I'm not hearing anyone";
+var idleMessage = "مرحبًا! أنا لا أسمع أحدًا";
 
 var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
 if (!SpeechRecognition) {
-    alert('Speech recognition not supported in this browser.');
+    alert('التعرف على الكلام غير مدعوم في هذا المتصفح.');
 } else {
     var recognition = new SpeechRecognition();
 
-    recognition.lang = 'en-US';
+    recognition.lang = 'ar-SA';  
     recognition.interimResults = true;
     recognition.continuous = true;
 
@@ -32,7 +32,7 @@ if (!SpeechRecognition) {
         if (event.error !== 'no-speech' && event.error !== 'aborted') {
             recognition.start();
         } else {
-            resultElement.textContent = 'Error occurred in recognition: ' + event.error;
+            resultElement.textContent = 'حدث خطأ في التعرف على الكلام: ' + event.error;
         }
     });
 }
