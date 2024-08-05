@@ -39,3 +39,6 @@ This file sets up speech recognition in Arabic, continuously updates the recogni
 Handles saving the recognized text to a MySQL database. This file processes the incoming data from the client-side and ensures that it is securely stored in the database for later retrieval.
 
 
+
+made with love by "she codes team "🤍😄 
+Raghad Alshammari - sadeem alresaini - razan alothaim.
