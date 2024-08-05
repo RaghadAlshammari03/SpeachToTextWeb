@@ -38,7 +38,18 @@ This file sets up speech recognition in Arabic, continuously updates the recogni
 ### 🗄️ PHP (save_text.php)
 Handles saving the recognized text to a MySQL database. This file processes the incoming data from the client-side and ensures that it is securely stored in the database for later retrieval.
 
+## 🚀 Usage
+- Set up a MySQL database named speechrecognition and create a table named speechRecognition with a text column.
+- Configure the database connection details in save_text.php.
+- Open index.html in a modern web browser that supports the Web Speech API.
+- Speak in Arabic, and the recognized text will be displayed and saved to the database.
 
+## ✨ Features
+
+- Continuous speech recognition in Arabic.
+- Display of recognized text on the webpage.
+- Storage of recognized text in a MySQL database.
+- User-friendly interface with modern design and animations.
 
 made with love by "she codes team "🤍😄 
 Raghad Alshammari - sadeem alresaini - razan alothaim.
